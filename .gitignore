@@ -2,9 +2,12 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+<<<<<<< HEAD
 .gitignore
 *.iml
 .idea
+=======
+>>>>>>> 1b819f6 (Add new java examples)
 
 ### Eclipse ###
 .apt_generated
@@ -29,5 +32,9 @@ bin/
 .vscode/
 
 ### Mac OS ###
+<<<<<<< HEAD
 .DS_Store
 /.idea/
+=======
+.DS_Store
+>>>>>>> 1b819f6 (Add new java examples)

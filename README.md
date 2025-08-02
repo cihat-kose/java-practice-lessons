@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TestingProject_02_Selenium_JUnit_Actions
 
 [EN]
@@ -117,3 +118,6 @@ Senaryo 5: Order Test
 ➢ Checkout butonuna tıklatınız
 ➢ Açılan sayfada tüm bilgileri doldurun ve confirm order butonuna tıklatınız
 ➢ “Your order has been successfully processed!” mesajının görüldüğünü doğrulayınız
+=======
+# Java Practice Lessons
+>>>>>>> 1b819f6 (Add new java examples)

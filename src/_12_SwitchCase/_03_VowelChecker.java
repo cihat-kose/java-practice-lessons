@@ -13,7 +13,6 @@ import java.util.Scanner;
  * {@code switch} ifadesiyle belirler.
  */
 public class _03_VowelChecker {
-
     public static void main(String[] args) {
         try (Scanner tarayici = new Scanner(System.in)) {
             System.out.print("Bir harf girin: ");

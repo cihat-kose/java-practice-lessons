@@ -1,0 +1,8 @@
+Görev:
+
+Java programlama dili kullanarak, toplama, çıkarma, çarpma ve bölme işlemlerini gerçekleştiren basit bir hesap makinesi kodu yazınız.
+
+Kabul Kriterleri:
+1. İşlemleri gerçekleştiren metotlar, ayrı bir sınıfta tanımlanmalıdır.
+2. Toplama ve çıkarma işlemleri static metotlar ile gerçekleştirilmelidir.
+3. Çarpma ve bölme işlemleri non-static metotlar ile gerçekleştirilmelidir.

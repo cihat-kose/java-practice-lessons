@@ -1,0 +1,78 @@
+
+
+  Constructor
+
+  Constructor Nedir?
+
+-   Tanım:
+    Java'da constructor'lar, bir sınıfın nesnesi oluşturulduğunda bellekte yer ayıran ve
+    nesnenin özelliklerine başlangıç değerlerini atayan özel metotlardır.
+
+  - Özellikler:
+  - Sınıf adıyla aynı ismi taşırlar.
+  - Geri dönüş değeri yoktur.
+  - `new` anahtar kelimesiyle çağrılırlar.
+
+  Constructor Türleri:
+
+1.   Parametresiz Constructor:
+   - Hiçbir parametre almaz.
+   - Varsayılan değerlerle nesne oluşturur.
+
+   public class Araba {
+       String marka;
+       String model;
+       int yil;
+
+       // Parametresiz Constructor
+       public Araba() {
+           this.marka = "Bilinmiyor";
+           this.model = "Bilinmiyor";
+           this.yil = 0;
+       }
+   }
+
+
+2.  Parametreli Constructor:
+   - Parametreler alarak, farklı özelliklere sahip nesneler oluşturmayı sağlar.
+
+   public class Araba {
+       String marka;
+       String model;
+       int yil;
+
+       // Parametreli Constructor
+       public Araba(String marka, String model, int yil) {
+           this.marka = marka;
+           this.model = model;
+           this.yil = yil;
+       }
+   }
+
+
+    Constructor Kullanımı:
+
+-   Nesne Oluşturma:
+
+  - Constructor, `new` anahtar kelimesiyle çağrılır.
+
+  Araba araba1 = new Araba(); // Parametresiz Constructor
+  Araba araba2 = new Araba("Toyota", "Corolla", 2020); // Parametreli Constructor
+
+
+  - Başlangıç Değerlerini Atama:
+  - Constructor'lar, sınıfın özelliklerine başlangıç değerleri atar.
+  - Başlangıç değerleri, nesnenin daha sonra kullanılacak metotlarında kullanılabilir.
+
+  Constructor'ların Avantajları:
+
+  - Başlangıç Değerleri:
+  - Nesne oluşturulduğunda, gerekli başlangıç değerlerini sağlar.
+
+  - Kodun Temizliği ve Okunabilirliği:
+  - Nesne oluşturma sürecini basitleştirir.
+  - Kodun okunabilirliğini artırır.
+
+  - Sınıfın Kullanımını Kolaylaştırma:
+  - İyi tasarlanmış constructor'lar, sınıfın kullanımını kolaylaştırır ve hataları önler.
+

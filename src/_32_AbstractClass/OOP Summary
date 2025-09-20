@@ -1,0 +1,42 @@
+
+Java'da Nesne Yönelimli Programlama (OOP)
+
+Java'da OOP (Object-Oriented Programming), sınıflar ve nesneler kullanılarak programların daha düzenli,
+esnek ve sürdürülebilir hale getirilmesini sağlayan bir programlama paradigmasıdır.
+Java'daki OOP'nin temel kavramları şunlardır:
+
+1. Sınıflar (Classes):
+   - Sınıflar, nesnelerin özelliklerini ve davranışlarını tanımlayan şablonlardır.
+   - Bir sınıf, değişkenler (özellikler) ve metotlar (davranışlar) içerir.
+   - Nesneler, sınıflardan türetilir ve bu sınıfın özelliklerini ve davranışlarını miras alır.
+
+2. Kalıtım (Inheritance):
+   - Kalıtım, bir sınıfın başka bir sınıftan özellikleri ve metotları devralmasını sağlar.
+   - Java'da bir sınıf yalnızca bir sınıftan kalıtım alabilir (tekli kalıtım).
+   - Çoklu kalıtım, arayüzler (interfaces) kullanılarak gerçekleştirilebilir.
+
+3. Polimorfizm (Polymorphism):
+   - Polimorfizm, aynı metot isminin farklı şekillerde kullanılmasını sağlar.
+   - Java'da iki tür polimorfizm vardır:
+     - Method Overloading (Metot Aşırı Yükleme): Aynı isimde ancak farklı parametrelerle tanımlanan metotlardır.
+     - Method Overriding (Metot Geçersiz Kılma): Alt sınıfların, üst sınıftaki metotları kendi ihtiyaçlarına göre yeniden tanımlamasıdır.
+
+4. Kapsülleme (Encapsulation):
+   - Kapsülleme, bir sınıfın değişkenlerine ve metotlarına erişimi sınırlamak için kullanılır.
+   - Erişim belirleyicileri (private, public, protected) ve getter/setter metotları ile sağlanır.
+   - Veri gizliliğini koruyarak güvenliği artırır.
+
+5. Soyut Sınıflar (Abstract Classes):
+   - Soyut sınıflar, tamamlanmamış veya alt sınıflar tarafından uygulanması gereken metotları içeren sınıflardır.
+   - "abstract" anahtar kelimesi ile tanımlanır.
+   - Soyut metotlar gövde içermez ve alt sınıflar tarafından uygulanmak zorundadır.
+
+6. Arayüzler (Interfaces):
+   - Arayüzler, bir sınıfın belirli bir davranışı uygulamasını zorunlu kılar.
+   - Sınıflar arasında bir sözleşme sağlar ve çoklu kalıtımı destekler.
+   - İçerisindeki metotlar varsayılan olarak "public" ve "abstract" olarak tanımlanır.
+
+Java'da OOP kullanarak:
+- Kodunuzu daha modüler ve yeniden kullanılabilir hale getirebilirsiniz.
+- Daha kolay yönetilebilir ve anlaşılır projeler geliştirebilirsiniz.
+- Büyük ölçekli projelerde kod organizasyonunu ve sürdürülebilirliği artırabilirsiniz.

@@ -3,6 +3,7 @@
 [![CI Tests](https://img.shields.io/github/actions/workflow/status/cihat-kose/java-practice-lessons/build.yml?branch=master&style=for-the-badge&label=CI%20Tests&logo=github)](https://github.com/cihat-kose/java-practice-lessons/actions/workflows/build.yml)
 [![Java 17](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 [![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
+[![JUnit 5](https://img.shields.io/badge/JUnit%205-25A162?style=for-the-badge&logo=junit5&logoColor=white)](https://junit.org/junit5/docs/current/user-guide/)
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 This repository contains independent Java practice examples for learning core

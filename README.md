@@ -27,8 +27,18 @@ mvn clean compile
 ```
 
 The build has been verified with IntelliJ IDEA's bundled Maven: 240 source
-files compiled successfully with Java release 17. There are currently no
-automated tests in the repository.
+files compiled successfully with Java release 17.
+
+To compile and run the automated checks, use:
+
+```bash
+mvn clean verify
+```
+
+The current verification compiles 3 test source files and passes 8 JUnit 5
+tests. The tests cover selected deterministic methods from the learning
+examples; most of the repository remains practice code without automated
+tests.
 
 ## Topics
 

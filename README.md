@@ -1,5 +1,10 @@
 # Java Practice Lessons
 
+[![GitHub Actions CI Tests](https://github.com/cihat-kose/java-practice-lessons/actions/workflows/build.yml/badge.svg?branch=master&style=for-the-badge)](https://github.com/cihat-kose/java-practice-lessons/actions/workflows/build.yml)
+[![Java 17](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+[![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
 This repository contains independent Java practice examples for learning core
 Java and object-oriented programming concepts. It is a learning repository,
 not a production application.
@@ -27,8 +32,18 @@ mvn clean compile
 ```
 
 The build has been verified with IntelliJ IDEA's bundled Maven: 240 source
-files compiled successfully with Java release 17. There are currently no
-automated tests in the repository.
+files compiled successfully with Java release 17.
+
+To compile and run the automated checks, use:
+
+```bash
+mvn clean verify
+```
+
+The current verification compiles 3 test source files and passes 8 JUnit 5
+tests. The tests cover selected deterministic methods from the learning
+examples; most of the repository remains practice code without automated
+tests.
 
 ## Topics
 

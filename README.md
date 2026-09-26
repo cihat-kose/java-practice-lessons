@@ -43,3 +43,8 @@ The numbered folders provide a gradual progression through:
 
 Each topic folder contains small, independent examples. Repeated class names
 in different topic folders are intentional.
+
+## Project information
+
+- [License](LICENSE)
+- [Contributing](CONTRIBUTING.md)

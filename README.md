@@ -41,10 +41,9 @@ To compile and run the automated checks, use:
 mvn clean verify
 ```
 
-The current verification compiles 5 test source files and passes 14 JUnit 5
-tests. The tests cover selected deterministic methods from the learning
-examples; most of the repository remains practice code without automated
-tests.
+The current verification compiles 7 test source files and passes 20 JUnit 5
+tests. Tests cover selected deterministic methods from lessons 18 and 24; most
+of the repository remains practice code without automated tests.
 
 ## Topics
 

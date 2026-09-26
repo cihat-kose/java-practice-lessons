@@ -1,57 +1,45 @@
 # Java Practice Lessons
 
-Bu depo, Java temellerini ve nesne yönelimli programlama kavramlarını küçük
-konsol örnekleriyle çalışmak için hazırlanmıştır. Örnekler öğrenme amacıyla
-bağımsız tutulur; production uygulaması olarak konumlandırılmamıştır.
+This repository contains independent Java practice examples for learning core
+Java and object-oriented programming concepts. It is a learning repository,
+not a production application.
 
-## Gereksinimler
+## Requirements
 
-- Java 17 veya daha yeni bir JDK
-- Maven 3.8 veya daha yeni bir sürüm
+- Java 17
+- Maven
 
-Kod UTF-8 ile derlenir ve Java 17 bytecode hedeflenir. Kaynaklarda Java 14 ile
-gelen switch expression/switch rule sözdizimi kullanıldığı için Java 17 veya
-daha yeni bir JDK gerekir.
+The project is configured for Java 17 and Maven.
 
-## Build
+## Running the examples in IntelliJ IDEA
 
-Temiz bir checkout sonrasında depo kökünde:
+Open the project in IntelliJ IDEA and mark `src` as the source directory if it
+is not detected automatically. Classes with a `main` method can then be run
+individually from the editor or the project view. Some examples expect input
+from the terminal.
+
+## Maven
+
+To compile all sources from the repository root, run:
 
 ```bash
 mvn clean compile
 ```
 
-Testleri çalıştırmak için:
+The build has been verified with IntelliJ IDEA's bundled Maven: 240 source
+files compiled successfully with Java release 17. There are currently no
+automated tests in the repository.
 
-```bash
-mvn test
-```
+## Topics
 
-Şu anda otomatik test sınıfı bulunmadığı için `mvn test` test çalıştırmadan
-başarılı olur. Test altyapısı, seçilmiş hesaplama ve domain örnekleri için
-JUnit testleri eklendikçe genişletilecektir.
+The numbered folders provide a gradual progression through:
 
-## IntelliJ IDEA
+- Output, escape sequences, variables, data types, type casting, and strings
+- Arithmetic, conditions, switch statements, loops, and user input
+- Arrays, two-dimensional arrays, and methods
+- ArrayList, two-dimensional ArrayList, sets, maps, and enums
+- Classes, static and non-static methods, constructors, and access modifiers
+- Encapsulation, inheritance, polymorphism, interfaces, and abstract classes
 
-1. `pom.xml` dosyasını IntelliJ IDEA ile açın.
-2. Maven projesinin içe aktarılmasını bekleyin.
-3. Çalıştırmak istediğiniz sınıfı `src` altında açın.
-4. `main` metodunun yanındaki Run düğmesini kullanın.
-
-Kullanıcı girdisi alan örnekler terminal üzerinden interaktif veri bekler.
-
-## Öğrenme akışı
-
-Konular `_01_` ile `_32_` arasında temel Java syntax'ından abstract class
-kullanımına doğru ilerler:
-
-- Değişkenler, veri tipleri, type casting ve String metotları
-- Koşullar, switch, döngüler ve kullanıcı girdisi
-- Diziler, iki boyutlu diziler ve metotlar
-- ArrayList, Set, Map ve enum
-- Constructor, erişim belirleyicileri ve encapsulation
-- Inheritance, polymorphism, interface ve abstract class
-
-Her konu klasörü, ilgili kavramı gösteren bağımsız örnekler içerir. Aynı sınıf
-adlarının farklı konu klasörlerinde tekrar edilmesi bu eğitim düzeninin
-bilinçli bir sonucudur.
+Each topic folder contains small, independent examples. Repeated class names
+in different topic folders are intentional.

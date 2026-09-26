@@ -1,5 +1,10 @@
 # Java Practice Lessons
 
+[![GitHub Actions CI Tests](https://github.com/cihat-kose/java-practice-lessons/actions/workflows/build.yml/badge.svg?branch=master&style=for-the-badge)](https://github.com/cihat-kose/java-practice-lessons/actions/workflows/build.yml)
+[![Java 17](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+[![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
 This repository contains independent Java practice examples for learning core
 Java and object-oriented programming concepts. It is a learning repository,
 not a production application.
